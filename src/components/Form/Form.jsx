@@ -78,6 +78,7 @@ const submitHandler = (e) => {
 
     return (
         <div className='form__container'>
+            <img className="pokemon-logo" src="https://www.freepnglogos.com/uploads/pokemon-logo-text-png-7.png"></img>
             <h1>What pokemon are you today?</h1>
             <form onSubmit={submitHandler} id='form'>
                 <label className="question">What is your name?</label>
@@ -95,7 +96,7 @@ const submitHandler = (e) => {
                             })
                         }
                     </div>
-                <button type="submit">Submit</button>
+                <button type="submit">Get Pokemon!</button>
             </form>
             {cardInfo && <Card url={cardInfo.pokeGif} pokeName={cardInfo.name}/>}
         </div>

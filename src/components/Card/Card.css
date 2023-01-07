@@ -1,20 +1,26 @@
 .card-container {
     min-width: 300px;
     max-width: 300px;
+    position: relative;
+}
+
+img {
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 
 .card__pokemon{
     width: 5rem;
     position: absolute;
-    top: 54vh;
-    left: 53.5vw;
-    transform: translate(-50%,0%);
+    top: 45%;
+    left: 47%;
+    transform: translate(-50%, -50%);
 }
 
 p {
     position: absolute;
-    top: 67vh;
-    left: calc(100vw - 50.6vw);
-    transform: translateX(50%)
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
