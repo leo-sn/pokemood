@@ -1,7 +1,8 @@
 
 .card__pokemon{
+    width: 5rem;
     position: absolute;
-    top:30%;
+    top:42%;
     left: 50%;
     transform: translate(-50%,0%);
 
