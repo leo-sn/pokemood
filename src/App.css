@@ -1,10 +1,18 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10rem;
+  padding: 50px;
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indiewire.com%2F2022%2F12%2Fpokemon-anime-ash-ketchum-1234792958%2F&psig=AOvVaw2Y2lGCmmnRmmu6Mv5PAbk8&ust=1673214715123000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPC7zNe4tvwCFQAAAAAdAAAAABAG');
+  width: 100%;
 }
+
 
 .App-logo {
   height: 40vmin;
